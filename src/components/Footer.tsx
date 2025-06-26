@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <Icon name="Home" size={24} className="text-primary" />
+              <Icon name="Home" size={24} className="text-green-500" />
               <h3 className="text-lg font-bold">Подворье Хранители долины</h3>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
@@ -21,25 +21,25 @@ const Footer = () => {
             <div className="space-y-2">
               <a
                 href="#features"
-                className="block text-gray-400 hover:text-primary transition-colors"
+                className="block text-gray-400 hover:text-green-400 transition-colors"
               >
                 Особенности
               </a>
               <a
                 href="#amenities"
-                className="block text-gray-400 hover:text-primary transition-colors"
+                className="block text-gray-400 hover:text-green-400 transition-colors"
               >
                 Удобства
               </a>
               <a
                 href="#pricing"
-                className="block text-gray-400 hover:text-primary transition-colors"
+                className="block text-gray-400 hover:text-green-400 transition-colors"
               >
                 Цены
               </a>
               <a
                 href="#contact"
-                className="block text-gray-400 hover:text-primary transition-colors"
+                className="block text-gray-400 hover:text-green-400 transition-colors"
               >
                 Контакты
               </a>

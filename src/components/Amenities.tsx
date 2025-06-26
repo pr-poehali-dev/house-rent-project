@@ -52,14 +52,14 @@ const Amenities = () => {
           {amenities.map((amenity, index) => (
             <div
               key={index}
-              className="group p-6 rounded-xl border border-gray-200 hover:border-primary/30 hover:shadow-lg transition-all"
+              className="group p-6 rounded-xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all"
             >
               <div className="flex items-start space-x-4">
-                <div className="bg-primary/10 rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0 group-hover:bg-primary/20 transition-colors">
+                <div className="bg-green-100 rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0 group-hover:bg-green-200 transition-colors">
                   <Icon
                     name={amenity.icon as any}
                     size={24}
-                    className="text-primary"
+                    className="text-green-600"
                   />
                 </div>
                 <div>

@@ -2,12 +2,12 @@ import Icon from "@/components/ui/icon";
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-20">
+    <section className="relative bg-gradient-to-br from-green-900 via-green-800 to-emerald-900 text-white py-20">
       <div className="absolute inset-0 bg-black/20"></div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Дом в стиле <span className="text-primary">хай-тек</span>
+            Дом в стиле <span className="text-green-400">хай-тек</span>
             <br />
             для незабываемого отдыха
           </h1>
@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <button className="bg-primary text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary/90 transition-all transform hover:scale-105">
+            <button className="bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-green-700 transition-all transform hover:scale-105">
               Забронировать сейчас
             </button>
             <button className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-gray-900 transition-all">
@@ -31,7 +31,7 @@ const Hero = () => {
               <Icon
                 name="Users"
                 size={40}
-                className="text-primary mx-auto mb-4"
+                className="text-green-400 mx-auto mb-4"
               />
               <h3 className="text-2xl font-bold mb-2">до 8 гостей</h3>
               <p className="text-gray-300">Комфортные спальные места</p>
@@ -40,7 +40,7 @@ const Hero = () => {
               <Icon
                 name="Home"
                 size={40}
-                className="text-primary mx-auto mb-4"
+                className="text-green-400 mx-auto mb-4"
               />
               <h3 className="text-2xl font-bold mb-2">100 кв.м</h3>
               <p className="text-gray-300">Просторный дом</p>
@@ -49,7 +49,7 @@ const Hero = () => {
               <Icon
                 name="Banknote"
                 size={40}
-                className="text-primary mx-auto mb-4"
+                className="text-green-400 mx-auto mb-4"
               />
               <h3 className="text-2xl font-bold mb-2">30 000 ₽</h3>
               <p className="text-gray-300">За сутки проживания</p>

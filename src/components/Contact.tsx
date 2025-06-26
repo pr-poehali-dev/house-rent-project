@@ -16,8 +16,8 @@ const Contact = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="space-y-8">
             <div className="flex items-center space-x-4">
-              <div className="bg-primary/20 rounded-full w-12 h-12 flex items-center justify-center">
-                <Icon name="Phone" size={24} className="text-primary" />
+              <div className="bg-green-600/20 rounded-full w-12 h-12 flex items-center justify-center">
+                <Icon name="Phone" size={24} className="text-green-400" />
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-1">Телефон</h3>
@@ -26,8 +26,8 @@ const Contact = () => {
             </div>
 
             <div className="flex items-center space-x-4">
-              <div className="bg-primary/20 rounded-full w-12 h-12 flex items-center justify-center">
-                <Icon name="Mail" size={24} className="text-primary" />
+              <div className="bg-green-600/20 rounded-full w-12 h-12 flex items-center justify-center">
+                <Icon name="Mail" size={24} className="text-green-400" />
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-1">Email</h3>
@@ -36,8 +36,8 @@ const Contact = () => {
             </div>
 
             <div className="flex items-center space-x-4">
-              <div className="bg-primary/20 rounded-full w-12 h-12 flex items-center justify-center">
-                <Icon name="MapPin" size={24} className="text-primary" />
+              <div className="bg-green-600/20 rounded-full w-12 h-12 flex items-center justify-center">
+                <Icon name="MapPin" size={24} className="text-green-400" />
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-1">Адрес</h3>
@@ -48,8 +48,8 @@ const Contact = () => {
             </div>
 
             <div className="flex items-center space-x-4">
-              <div className="bg-primary/20 rounded-full w-12 h-12 flex items-center justify-center">
-                <Icon name="Clock" size={24} className="text-primary" />
+              <div className="bg-green-600/20 rounded-full w-12 h-12 flex items-center justify-center">
+                <Icon name="Clock" size={24} className="text-green-400" />
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-1">Время работы</h3>
@@ -64,7 +64,7 @@ const Contact = () => {
                 <label className="block text-sm font-medium mb-2">Имя</label>
                 <input
                   type="text"
-                  className="w-full px-4 py-3 rounded-lg bg-gray-700 text-white border border-gray-600 focus:border-primary focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 rounded-lg bg-gray-700 text-white border border-gray-600 focus:border-green-500 focus:outline-none transition-colors"
                   placeholder="Ваше имя"
                 />
               </div>
@@ -74,7 +74,7 @@ const Contact = () => {
                 </label>
                 <input
                   type="tel"
-                  className="w-full px-4 py-3 rounded-lg bg-gray-700 text-white border border-gray-600 focus:border-primary focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 rounded-lg bg-gray-700 text-white border border-gray-600 focus:border-green-500 focus:outline-none transition-colors"
                   placeholder="+7 (999) 123-45-67"
                 />
               </div>
@@ -84,11 +84,11 @@ const Contact = () => {
                 </label>
                 <textarea
                   rows={4}
-                  className="w-full px-4 py-3 rounded-lg bg-gray-700 text-white border border-gray-600 focus:border-primary focus:outline-none transition-colors resize-none"
+                  className="w-full px-4 py-3 rounded-lg bg-gray-700 text-white border border-gray-600 focus:border-green-500 focus:outline-none transition-colors resize-none"
                   placeholder="Ваш вопрос или пожелания"
                 ></textarea>
               </div>
-              <button className="w-full bg-primary text-white py-3 px-6 rounded-lg font-semibold hover:bg-primary/90 transition-colors">
+              <button className="w-full bg-green-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-green-700 transition-colors">
                 Отправить сообщение
               </button>
             </form>

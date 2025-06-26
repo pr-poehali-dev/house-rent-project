@@ -10,7 +10,7 @@ const Pricing = () => {
   return (
     <section
       id="pricing"
-      className="py-20 bg-gradient-to-br from-primary/5 to-primary/10"
+      className="py-20 bg-gradient-to-br from-green-50 to-emerald-100"
     >
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
@@ -25,7 +25,7 @@ const Pricing = () => {
         <div className="max-w-2xl mx-auto">
           <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl">
             <div className="text-center mb-8">
-              <div className="text-6xl md:text-7xl font-bold text-primary mb-4">
+              <div className="text-6xl md:text-7xl font-bold text-green-600 mb-4">
                 30 000 ₽
               </div>
               <p className="text-xl text-gray-600">за сутки проживания</p>
@@ -48,10 +48,10 @@ const Pricing = () => {
             </div>
 
             <div className="space-y-4">
-              <button className="w-full bg-primary text-white py-4 px-8 rounded-xl text-lg font-semibold hover:bg-primary/90 transition-all transform hover:scale-105">
+              <button className="w-full bg-green-600 text-white py-4 px-8 rounded-xl text-lg font-semibold hover:bg-green-700 transition-all transform hover:scale-105">
                 Забронировать сейчас
               </button>
-              <button className="w-full border-2 border-primary text-primary py-4 px-8 rounded-xl text-lg font-semibold hover:bg-primary hover:text-white transition-all">
+              <button className="w-full border-2 border-green-600 text-green-600 py-4 px-8 rounded-xl text-lg font-semibold hover:bg-green-600 hover:text-white transition-all">
                 Задать вопрос
               </button>
             </div>

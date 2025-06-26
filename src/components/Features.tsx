@@ -39,11 +39,11 @@ const Features = () => {
               key={index}
               className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-2"
             >
-              <div className="bg-primary/10 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+              <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mb-6">
                 <Icon
                   name={feature.icon as any}
                   size={32}
-                  className="text-primary"
+                  className="text-green-600"
                 />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">
